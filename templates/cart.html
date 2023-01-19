@@ -7,11 +7,11 @@
   <meta charset="UTF-8">
   <title>CodePen - Shopping Cart Dropdown</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
   <link rel="stylesheet" href="{% static 'cart/style.css' %}">
 
 </head>
 <body>
+  
 <!-- partial:index.partial.html -->
 
 
@@ -28,7 +28,7 @@
     {% for i in ci %}
     <ul class="shopping-cart-items">
       <li class="clearfix">
-        <a href="{{i.prodt.get_url}}"><img src="{{i.prodt.img.url}}" alt="{{i.prodt.name}}" /><br>
+        <a href="{{i.prodt.get_url}}"><img src="{{i.prodt.img.url}}" alt="{{i.prodt.name}}"  style="height: 250px;width:250px;" /><br><br>
         <span class="item-name">{{i.prodt.name}}</span></a>
         <span class="item-name">ID:{{i.prodt.id}}</span><br>
         <span class="item-price">Price:${{i.prodt.price}} x 1</span><br><br>

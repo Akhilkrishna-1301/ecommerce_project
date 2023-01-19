@@ -39,15 +39,13 @@
           <div class="wrapper row1 ">
             <header id="header" class="hoc clear">
               <div id="logo" class="fl_left text-white"> 
-                <h1 ><a href="/">FOOD CART</a></h1>
+                <h1 ><a href="/">FOOD SHOP</a></h1>
               </div>
-              <nav id="mainav" class="fl_right"> 
+              <nav id="mainav" > 
                 <ul class="clear">
                   <li class="active"><a href="/">Home</a></li>
                   <li><a class="active" href="{% url 'cartdetails' %}"> <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">{{itc}}</span></a></li>
-                  <li><a class="active" href="#">Register</a></li>
-                  <li><a class="active" href="#">Log In</a></li>
-                  <li><a class="active" href="#">Log Out</a></li>
+                  <li><a class="active" href="{% url 'logout' %}">Log Out</a></li>
                 </ul>
               </nav>
             </header>
