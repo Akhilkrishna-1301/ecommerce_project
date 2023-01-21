@@ -26,7 +26,7 @@ It's an ecommerce food web application using python and Django.The users can sel
 
 # OPEN SOURCE
 
-Do you feel like there is something more that YOU could contribute to Foodshop? Foodshop is fully Open Source! feel free to source your talent to Foodshop through my GitHub repo. You can also raise your valuble suggestions and queries about Yeng App in GitHub and i will for sure check them out.
+Do you feel like there is something more that YOU could contribute to Foodshop? Foodshop is fully Open Source! feel free to source your talent to Foodshop through my GitHub repo. You can also raise your valuble suggestions and queries about Foodshop App in GitHub and i will for sure check them out.
 
 #Foodshop Application
 
